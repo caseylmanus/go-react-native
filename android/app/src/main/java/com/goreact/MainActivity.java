@@ -19,7 +19,6 @@ public class MainActivity extends ReactActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        Toast.makeText(this, Demo.HelloWorld(), Toast.LENGTH_SHORT).show();
         File dir = new ContextWrapper(this).getFilesDir();
         Demo.WriteFile(dir.getAbsolutePath());
         new Thread(new Runnable() {
@@ -55,7 +54,8 @@ public class MainActivity extends ReactActivity {
     @Override
     protected List<ReactPackage> getPackages() {
         return Arrays.<ReactPackage>asList(
-            new MainReactPackage()
+            new MainReactPackage(),
+            new GoPackage()
         );
     }
 }

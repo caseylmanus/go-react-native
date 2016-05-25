@@ -8,30 +8,44 @@ import React, {
   Component,
   StyleSheet,
   Text,
-  View
+  View,
+  NativeModules
 } from 'react-native';
 
 class GoReact extends Component {
-  constructor(){
+  constructor() {
     super();
     this.state = {};
     fetch("http://localhost:8080/").then((result) => {
       return result.text();
     }).then((text) => {
-      this.setState({message:text});
+      this.setState({ httpMessage: text });
+    });
+    var ws = new WebSocket('ws://localhost:8080/websocket');
+
+    ws.onopen = () => {
+      // connection opened
+      ws.send('something');
+    };
+
+    ws.onmessage = (e) => {
+      this.setState({ webSocketMessage: e.data });
+    };
+    NativeModules.Go.sayHello((data) => {
+      this.setState({nativeBridgeMessage: data});
     });
   }
   render() {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          {this.state.message}
+          From HTTP: {this.state.httpMessage}
         </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.android.js
+        <Text style={styles.welcome}>
+          From WebSocket: {this.state.webSocketMessage}
         </Text>
-        <Text style={styles.instructions}>
-          Shake or press menu button for dev menu
+         <Text style={styles.welcome}>
+          From Native Bridge: {this.state.nativeBridgeMessage}
         </Text>
       </View>
     );

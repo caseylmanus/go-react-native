@@ -2,60 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
+        jar="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp/0.8.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
-        <dex dex="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/pre-dexed/debug/classes-4befdf7593517df43e4aeed367b18a37d6f44f2f.jar" />
-    </item>
-    <item
-        jar="/Users/cmanus/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.5.0/4de2b4ed3445c37ec1720a7d214712e845a24636/okhttp-2.5.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
-        <dex dex="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/pre-dexed/debug/okhttp-2.5.0-f69fe66b79fcfc3e445ca84e93eba3d214c5be20.jar" />
-    </item>
-    <item
-        jar="/Users/cmanus/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="129874135e6081269ace2312092031558865de12">
-        <dex dex="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-b34502cf0ed4863255bc6fa8a34c31dcd0eb7240.jar" />
-    </item>
-    <item
-        jar="/Users/cmanus/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.3/1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14/jackson-core-2.2.3.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
-        <dex dex="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/pre-dexed/debug/jackson-core-2.2.3-a552dcbd2dffbb151fc31f14050f099683cf6186.jar" />
-    </item>
-    <item
-        jar="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/pre-dexed/debug/classes-849dc0e0218a34bb00eece8983571e46234f2c56.jar" />
-    </item>
-    <item
-        jar="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.8.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="845a5b3a624946b2068963ba656c117fc453701c">
-        <dex dex="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/pre-dexed/debug/classes-5a79d9b57aefeaf8998abeb8a5153d143790d114.jar" />
-    </item>
-    <item
-        jar="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/exploded-aar/GoReact/demo/unspecified/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="aed0b7aa95476c8281b712e0ff44de918db568f0">
-        <dex dex="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/pre-dexed/debug/classes-d7c547928b5e37ee8966cf421e5d9906c81beb3f.jar" />
-    </item>
-    <item
-        jar="/Users/cmanus/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="98476622f10715998eacf9240d6b479f12c66143">
-        <dex dex="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/pre-dexed/debug/okio-1.6.0-19457862f890962d52b2a5fbbca41c484a1eac6e.jar" />
+        sha1="0d5d69b03cb7d68b81543f6483ed04ccb0e2235b">
+        <dex dex="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/pre-dexed/debug/classes-cb448f2f3193778fd2d9f069e811e365af2d15a1.jar" />
     </item>
     <item
         jar="/Users/cmanus/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-ws/2.5.0/e9753b7dcae5deca92e871c5c759067070b07bc/okhttp-ws-2.5.0.jar"
@@ -65,18 +16,18 @@
         <dex dex="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-2.5.0-6b79c20511030c23c0508115328de9f671d96336.jar" />
     </item>
     <item
-        jar="/Users/cmanus/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jar="/Users/cmanus/code/src/github.com/go-react-native/android/app/build/intermediates/exploded-aar/GoReact/demo/unspecified/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/pre-dexed/debug/library-2.4.0-62fd6e885126481b81f01777b0e4a419d732f18f.jar" />
+        sha1="4e9c88e03ce4b1d0b0f7f879c2df8d34ff29b0eb">
+        <dex dex="/Users/cmanus/code/src/github.com/go-react-native/android/app/build/intermediates/pre-dexed/debug/classes-9baa5304294656a3117467cabe0a4a4c1ed5dad7.jar" />
     </item>
     <item
-        jar="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/jars/classes.jar"
+        jar="/Users/cmanus/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="4af24c040b21980e0a80a505816c648e36705bd9">
-        <dex dex="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/pre-dexed/debug/classes-25fb0224929149a2eafe4d7f4ca55080e107abdc.jar" />
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-b34502cf0ed4863255bc6fa8a34c31dcd0eb7240.jar" />
     </item>
     <item
         jar="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
@@ -86,11 +37,53 @@
         <dex dex="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/pre-dexed/debug/classes-9c6517b203377b909adf77bbf66dca2bd5890811.jar" />
     </item>
     <item
-        jar="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp/0.8.1/jars/classes.jar"
+        jar="/Users/cmanus/code/src/github.com/go-react-native/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/cmanus/code/src/github.com/go-react-native/android/app/build/intermediates/pre-dexed/debug/classes-a0e88a26aec4de5159f7b6c6837db61587cdb692.jar" />
+    </item>
+    <item
+        jar="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4af24c040b21980e0a80a505816c648e36705bd9">
+        <dex dex="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/pre-dexed/debug/classes-25fb0224929149a2eafe4d7f4ca55080e107abdc.jar" />
+    </item>
+    <item
+        jar="/Users/cmanus/code/src/github.com/go-react-native/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp/0.8.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="0d5d69b03cb7d68b81543f6483ed04ccb0e2235b">
-        <dex dex="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/pre-dexed/debug/classes-cb448f2f3193778fd2d9f069e811e365af2d15a1.jar" />
+        <dex dex="/Users/cmanus/code/src/github.com/go-react-native/android/app/build/intermediates/pre-dexed/debug/classes-c768763f1b120d05733d68602c20b7c005725677.jar" />
+    </item>
+    <item
+        jar="/Users/cmanus/code/src/github.com/go-react-native/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4af24c040b21980e0a80a505816c648e36705bd9">
+        <dex dex="/Users/cmanus/code/src/github.com/go-react-native/android/app/build/intermediates/pre-dexed/debug/classes-6b0ebbc33007be2ddc49380c5754e5be9f1743ba.jar" />
+    </item>
+    <item
+        jar="/Users/cmanus/code/src/github.com/go-react-native/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.8.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="845a5b3a624946b2068963ba656c117fc453701c">
+        <dex dex="/Users/cmanus/code/src/github.com/go-react-native/android/app/build/intermediates/pre-dexed/debug/classes-d2ba2ab47ebbf47dcfc6d7a103dae91e4ebb61e8.jar" />
+    </item>
+    <item
+        jar="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/exploded-aar/GoReact/demo/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aed0b7aa95476c8281b712e0ff44de918db568f0">
+        <dex dex="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/pre-dexed/debug/classes-d7c547928b5e37ee8966cf421e5d9906c81beb3f.jar" />
+    </item>
+    <item
+        jar="/Users/cmanus/code/src/github.com/go-react-native/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.24.1/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="50bae83a0680cb90776a4d36bb6aa4911a84fd8b">
+        <dex dex="/Users/cmanus/code/src/github.com/go-react-native/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5-0b3ebc0795e9c94ab4b48dd573d6bcb46d2c242d.jar" />
     </item>
     <item
         jar="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.8.1/jars/classes.jar"
@@ -98,6 +91,13 @@
         revision="23.0.1"
         sha1="3836ecca4e31e18ea8fbae8e822d49777b0db4f7">
         <dex dex="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/pre-dexed/debug/classes-5e2c670d83dea92b0f4fab2c0d3b7778a3008779.jar" />
+    </item>
+    <item
+        jar="/Users/cmanus/code/src/github.com/go-react-native/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/Users/cmanus/code/src/github.com/go-react-native/android/app/build/intermediates/pre-dexed/debug/classes-9ca5e1443c4d42316a19eb9098beeb32c6a438b9.jar" />
     </item>
     <item
         jar="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.24.1/jars/classes.jar"
@@ -114,11 +114,25 @@
         <dex dex="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/pre-dexed/debug/classes-4a384c9f4e4614f2184b408fa7e68efbbeeba259.jar" />
     </item>
     <item
-        jar="/Users/cmanus/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jar="/Users/cmanus/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-3278e4cf5ddc541285821ec3509730967182d401.jar" />
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/pre-dexed/debug/library-2.4.0-62fd6e885126481b81f01777b0e4a419d732f18f.jar" />
+    </item>
+    <item
+        jar="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/pre-dexed/debug/classes-4befdf7593517df43e4aeed367b18a37d6f44f2f.jar" />
+    </item>
+    <item
+        jar="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-d980146bef7cb93fe03dab14295ac26ab1900028.jar" />
     </item>
     <item
         jar="/Users/cmanus/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
@@ -135,11 +149,81 @@
         <dex dex="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5-d1760cc7e9be7fc5eafe3e97ce8d79acbd3472e5.jar" />
     </item>
     <item
-        jar="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jar="/Users/cmanus/code/src/github.com/go-react-native/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-d980146bef7cb93fe03dab14295ac26ab1900028.jar" />
+        <dex dex="/Users/cmanus/code/src/github.com/go-react-native/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-75fac949aca984eca962670f419054ea3c113b58.jar" />
+    </item>
+    <item
+        jar="/Users/cmanus/code/src/github.com/go-react-native/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.8.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9178570a3a28c95fabd3bc746cd68efe99ad2b47">
+        <dex dex="/Users/cmanus/code/src/github.com/go-react-native/android/app/build/intermediates/pre-dexed/debug/classes-1f386f70fb006e74ebc51fa1f52ef0f5fd61e0a5.jar" />
+    </item>
+    <item
+        jar="/Users/cmanus/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.5.0/4de2b4ed3445c37ec1720a7d214712e845a24636/okhttp-2.5.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/pre-dexed/debug/okhttp-2.5.0-f69fe66b79fcfc3e445ca84e93eba3d214c5be20.jar" />
+    </item>
+    <item
+        jar="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/pre-dexed/debug/classes-849dc0e0218a34bb00eece8983571e46234f2c56.jar" />
+    </item>
+    <item
+        jar="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.8.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="845a5b3a624946b2068963ba656c117fc453701c">
+        <dex dex="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/pre-dexed/debug/classes-5a79d9b57aefeaf8998abeb8a5153d143790d114.jar" />
+    </item>
+    <item
+        jar="/Users/cmanus/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/pre-dexed/debug/okio-1.6.0-19457862f890962d52b2a5fbbca41c484a1eac6e.jar" />
+    </item>
+    <item
+        jar="/Users/cmanus/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.3/1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14/jackson-core-2.2.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
+        <dex dex="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/pre-dexed/debug/jackson-core-2.2.3-a552dcbd2dffbb151fc31f14050f099683cf6186.jar" />
+    </item>
+    <item
+        jar="/Users/cmanus/code/src/github.com/go-react-native/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.24.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d12931c7b260dda5ba99b8c89cd6ec2a104abed3">
+        <dex dex="/Users/cmanus/code/src/github.com/go-react-native/android/app/build/intermediates/pre-dexed/debug/classes-be7b57f4d1def316cd6e0cd611425c2d51712a5a.jar" />
+    </item>
+    <item
+        jar="/Users/cmanus/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-3278e4cf5ddc541285821ec3509730967182d401.jar" />
+    </item>
+    <item
+        jar="/Users/cmanus/code/src/github.com/go-react-native/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/cmanus/code/src/github.com/go-react-native/android/app/build/intermediates/pre-dexed/debug/classes-323a896789714803693ff18f5550a712a7bb8622.jar" />
+    </item>
+    <item
+        jar="/Users/cmanus/code/src/github.com/go-react-native/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.8.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3836ecca4e31e18ea8fbae8e822d49777b0db4f7">
+        <dex dex="/Users/cmanus/code/src/github.com/go-react-native/android/app/build/intermediates/pre-dexed/debug/classes-00b4e9be7edf0ac307f47c1b6f7ba664a5bfeb0d.jar" />
     </item>
 
 </items>

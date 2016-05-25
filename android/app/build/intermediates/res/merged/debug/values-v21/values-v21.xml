@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/cmanus/code/src/github.com/sandbox/samples/GoReact/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml -->
+    <!-- From: file:/Users/cmanus/code/src/github.com/go-react-native/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v21/values-v21.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat" parent="android:TextAppearance.Material"/>
     <style name="Base.TextAppearance.AppCompat.Body1" parent="android:TextAppearance.Material.Body1"/>
