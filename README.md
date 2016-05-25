@@ -10,9 +10,9 @@ information about running a React Native Application, see the docs for that proj
 
 This sample illustrates 3 ways of communicating between your React Native UI 
 and a Go shared library
-    *  Http
-    *  Websockets
-    *  Native Bridge provided by React native.
+*  Http
+*  Websockets
+*  Native Bridge provided by React native.
 
 The Go source code is in the /demo folder (demo.go).  To modify it, you will need Go 1.6 and 
 the go mobile tool chain.  
