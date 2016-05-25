@@ -1,0 +1,5 @@
+framework module "Demo" {
+    header "Demo.h"
+
+    export *
+}

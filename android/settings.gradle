@@ -1,0 +1,3 @@
+rootProject.name = 'GoReact'
+
+include ':app', ':demo'
