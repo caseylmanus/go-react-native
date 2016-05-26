@@ -9,13 +9,18 @@ import React, {
   StyleSheet,
   Text,
   View,
-  NativeModules
+  NativeModules,
+  DeviceEventEmitter,
+  Alert
 } from 'react-native';
 
 class GoReact extends Component {
   constructor() {
     super();
     this.state = {};
+    DeviceEventEmitter.addListener('general', (message) => {
+      Alert.alert("From Go", message);
+    });
     fetch("http://localhost:8080/").then((result) => {
       return result.text();
     }).then((text) => {

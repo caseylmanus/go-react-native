@@ -1,10 +1,15 @@
 package com.goreact;
 
+import android.content.Context;
+import android.util.Log;
 import android.widget.Toast;
 import android.content.ContextWrapper;
 
 import com.facebook.react.ReactActivity;
+import com.facebook.react.ReactInstanceManager;
 import com.facebook.react.ReactPackage;
+import com.facebook.react.bridge.ReactApplicationContext;
+import com.facebook.react.modules.core.DeviceEventManagerModule;
 import com.facebook.react.shell.MainReactPackage;
 
 import java.io.File;
@@ -21,12 +26,8 @@ public class MainActivity extends ReactActivity {
         super.onResume();
         File dir = new ContextWrapper(this).getFilesDir();
         Demo.WriteFile(dir.getAbsolutePath());
-        //new Thread(new Runnable() {
-        //    @Override
-        //    public void run() {
-                Demo.StartListening();
-        //    }
-        //}).start();
+        Demo.StartListening();
+
     }
 
     /**
@@ -58,4 +59,5 @@ public class MainActivity extends ReactActivity {
             new GoPackage()
         );
     }
+
 }

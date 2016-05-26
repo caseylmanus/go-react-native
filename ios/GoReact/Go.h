@@ -9,7 +9,7 @@
 #import "RCTBridgeModule.h"
 #import "Demo/Demo.h"
 
-@interface Go : NSObject <RCTBridgeModule>
+@interface Go : NSObject <RCTBridgeModule, GoDemoEventBus>
 
 
 @end

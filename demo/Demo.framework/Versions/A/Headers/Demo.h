@@ -8,12 +8,29 @@
 
 #include <Foundation/Foundation.h>
 
-FOUNDATION_EXPORT NSString* GoDemoHelloWorld();
+@protocol GoDemoEventBus;
+@class GoDemoEventBus;
+
+@protocol GoDemoEventBus
+- (void)sendEvent:(NSString*)channel message:(NSString*)message;
+@end
+
+FOUNDATION_EXPORT NSString* GoDemoHelloWorld(id<GoDemoEventBus> bus);
 
 FOUNDATION_EXPORT NSString* GoDemoReadFile(NSString* baseDir);
 
 FOUNDATION_EXPORT void GoDemoStartListening();
 
 FOUNDATION_EXPORT void GoDemoWriteFile(NSString* baseDir);
+
+@class GoDemoEventBus;
+
+@interface GoDemoEventBus : NSObject <GoDemoEventBus> {
+}
+@property(strong, readonly) id _ref;
+
+- (id)initWithRef:(id)ref;
+- (void)sendEvent:(NSString*)channel message:(NSString*)message;
+@end
 
 #endif

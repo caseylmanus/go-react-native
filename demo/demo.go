@@ -10,18 +10,21 @@ import (
 	"time"
 )
 
+type EventBus interface {
+	SendEvent(channel, message string)
+}
+
 func StartListening() {
 	go func() {
 		http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 			time.Sleep(time.Second * 2)
 			fmt.Fprintln(w, "Hello Http")
+
 		})
 		http.Handle("/websocket", websocket.Handler(onWebSocket))
 
-		err := http.ListenAndServe(":8080", nil)
-		if(err != nil){
-			panic(err)
-		}
+		http.ListenAndServe(":8080", nil)
+
 	}()
 }
 func onWebSocket(ws *websocket.Conn) {
@@ -40,6 +43,12 @@ func ReadFile(baseDir string) string {
 	return string(bytes)
 }
 
-func HelloWorld() string {
+func HelloWorld(bus EventBus) string {
+	go func() {
+		time.Sleep(time.Second * 3)
+		bus.SendEvent("general", "After 3 seconds!")
+		time.Sleep(time.Second * 3)
+		bus.SendEvent("general", "After 6 seconds!")
+	}()
 	return "Hello Native Bridge"
 }
