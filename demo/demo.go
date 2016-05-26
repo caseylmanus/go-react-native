@@ -11,17 +11,22 @@ import (
 )
 
 func StartListening() {
-	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		time.Sleep(time.Second * 2)
-		fmt.Fprintln(w, "Hello Http")
-	})
-	http.Handle("/websocket", websocket.Handler(onWebSocket))
+	go func() {
+		http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+			time.Sleep(time.Second * 2)
+			fmt.Fprintln(w, "Hello Http")
+		})
+		http.Handle("/websocket", websocket.Handler(onWebSocket))
 
-	http.ListenAndServe(":8080", nil)
+		err := http.ListenAndServe(":8080", nil)
+		if(err != nil){
+			panic(err)
+		}
+	}()
 }
 func onWebSocket(ws *websocket.Conn) {
-	var message = "Hello Web Socket"
-	websocket.JSON.Send(ws, message)
+	message := "Hello Web Socket"
+	websocket.Message.Send(ws, message)
 
 }
 func WriteFile(baseDir string) {

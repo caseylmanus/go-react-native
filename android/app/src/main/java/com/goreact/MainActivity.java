@@ -21,12 +21,12 @@ public class MainActivity extends ReactActivity {
         super.onResume();
         File dir = new ContextWrapper(this).getFilesDir();
         Demo.WriteFile(dir.getAbsolutePath());
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
+        //new Thread(new Runnable() {
+        //    @Override
+        //    public void run() {
                 Demo.StartListening();
-            }
-        }).start();
+        //    }
+        //}).start();
     }
 
     /**
