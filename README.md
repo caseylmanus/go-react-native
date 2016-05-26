@@ -20,3 +20,7 @@ the go mobile tool chain.
 Once you modify the demo.go file, then you can run "gomobile bind platform=(ios|android)" to build 
 either the new Demo.framework for ios or demo.aar for Android.  Once those are built,
 then copy them to the appropriate platform folder (ios/Demo.framework or android/demo/demo.aar)
+
+# NOTE
+If you have something else running on PORT 8081, this demo will fail to run the http and websocket examples,
+you can change the port number in the index.*.js files and the demo.go file then rebuild.
