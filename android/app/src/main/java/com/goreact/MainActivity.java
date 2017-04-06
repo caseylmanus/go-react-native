@@ -17,7 +17,7 @@ import java.util.Arrays;
 import java.util.List;
 
 
-import go.demo.Demo;
+import demo.Demo;
 
 public class MainActivity extends ReactActivity {
 
@@ -25,8 +25,8 @@ public class MainActivity extends ReactActivity {
     protected void onResume() {
         super.onResume();
         File dir = new ContextWrapper(this).getFilesDir();
-        Demo.WriteFile(dir.getAbsolutePath());
-        Demo.StartListening();
+        Demo.writeFile(dir.getAbsolutePath());
+        Demo.startListening();
 
     }
 
