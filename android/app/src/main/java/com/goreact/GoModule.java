@@ -13,16 +13,16 @@ import com.facebook.react.modules.core.DeviceEventManagerModule;
 import java.util.Map;
 
 //import Go Module
-import go.demo.Demo;
+import demo.Demo;
 
 public class GoModule extends ReactContextBaseJavaModule {
 
   @ReactMethod
   public void sayHello(Callback success){
       final ReactApplicationContext context = this.getReactApplicationContext();
-      success.invoke(Demo.HelloWorld(new Demo.EventBus() {
+      success.invoke(Demo.helloWorld(new demo.EventBus() {
         @Override
-        public void SendEvent(String channel, String message) {
+        public void sendEvent(String channel, String message) {
           Log.i(channel, message);
           context.getJSModule(DeviceEventManagerModule.RCTDeviceEventEmitter.class)
                 .emit(channel, message);
